@@ -8,7 +8,7 @@ const repl = async () => {};
 if (require.main === module) {
   console.log(
     chalk.red(
-      `Welcome to the ${chalk.bgYellow('Dropbear')} Programming Language`,
+      `Welcome to the ${chalk.bgYellow('Mini Compiler')} Programming Language`,
     ),
   );
   repl();

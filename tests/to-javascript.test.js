@@ -1,7 +1,7 @@
 const { toJavaScript } = require('../src/to-javascript');
 
 describe(toJavaScript, () => {
-  it.skip('should reformate Dropbear to valid JavaScript', () => {
+  it.skip('should reformate mini-compiler to valid JavaScript', () => {
     const ast = {
       type: 'CallExpression',
       name: 'add',
